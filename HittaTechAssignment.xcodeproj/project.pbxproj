@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0328D234226A39E700481148 /* BaseElements.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0328D233226A39E700481148 /* BaseElements.swift */; };
+		0328D236226A3A7700481148 /* BaseFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0328D235226A3A7700481148 /* BaseFunctions.swift */; };
+		0328D238226A3EDE00481148 /* ReviewsPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0328D237226A3EDE00481148 /* ReviewsPage.swift */; };
+		036B02F1226A542600D09FBF /* AddReviewCheckText.swift in Sources */ = {isa = PBXBuildFile; fileRef = 036B02F0226A542600D09FBF /* AddReviewCheckText.swift */; };
+		036B02F3226AE14F00D09FBF /* AddReviewPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 036B02F2226AE14F00D09FBF /* AddReviewPage.swift */; };
+		036B02F5226B09DE00D09FBF /* AddReviewViaCloseButtonTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 036B02F4226B09DE00D09FBF /* AddReviewViaCloseButtonTest.swift */; };
+		036B02F7226C3FD800D09FBF /* AddReviewViaDescribeExperinceTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 036B02F6226C3FD800D09FBF /* AddReviewViaDescribeExperinceTest.swift */; };
 		1B28168121BDAA820071F8B1 /* OwnReviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B28168021BDAA820071F8B1 /* OwnReviewView.swift */; };
 		1B2D56DA21BC03E800750DA6 /* RatingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B2D56D921BC03E800750DA6 /* RatingView.swift */; };
 		1B2D56DC21BC068000750DA6 /* RateAndReviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B2D56DB21BC068000750DA6 /* RateAndReviewView.swift */; };
@@ -45,7 +52,7 @@
 		1BDCABC121BF0D4800FDC15F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1BDCABC021BF0D4800FDC15F /* Assets.xcassets */; };
 		1BDCABC321BF0DEB00FDC15F /* CompanyReviewSaveRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BDCABC221BF0DEB00FDC15F /* CompanyReviewSaveRequest.swift */; };
 		1BDCABC521BF0E2A00FDC15F /* CompanyDetailsRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BDCABC421BF0E2A00FDC15F /* CompanyDetailsRequest.swift */; };
-		67856E262269DE45004C966B /* HittaTechAssignmentUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67856E252269DE45004C966B /* HittaTechAssignmentUITests.swift */; };
+		67856E262269DE45004C966B /* ReviewsPageTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67856E252269DE45004C966B /* ReviewsPageTest.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +66,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0328D233226A39E700481148 /* BaseElements.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseElements.swift; sourceTree = "<group>"; };
+		0328D235226A3A7700481148 /* BaseFunctions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseFunctions.swift; sourceTree = "<group>"; };
+		0328D237226A3EDE00481148 /* ReviewsPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReviewsPage.swift; sourceTree = "<group>"; };
+		036B02F0226A542600D09FBF /* AddReviewCheckText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AddReviewCheckText.swift; path = HittaTechAssignmentUITests/TestCases/AddReviewCheckText.swift; sourceTree = SOURCE_ROOT; };
+		036B02F2226AE14F00D09FBF /* AddReviewPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddReviewPage.swift; sourceTree = "<group>"; };
+		036B02F4226B09DE00D09FBF /* AddReviewViaCloseButtonTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddReviewViaCloseButtonTest.swift; sourceTree = "<group>"; };
+		036B02F6226C3FD800D09FBF /* AddReviewViaDescribeExperinceTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddReviewViaDescribeExperinceTest.swift; sourceTree = "<group>"; };
 		1B28168021BDAA820071F8B1 /* OwnReviewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OwnReviewView.swift; sourceTree = "<group>"; };
 		1B2D56D921BC03E800750DA6 /* RatingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RatingView.swift; sourceTree = "<group>"; };
 		1B2D56DB21BC068000750DA6 /* RateAndReviewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RateAndReviewView.swift; sourceTree = "<group>"; };
@@ -100,7 +114,7 @@
 		1BDCABC221BF0DEB00FDC15F /* CompanyReviewSaveRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompanyReviewSaveRequest.swift; sourceTree = "<group>"; };
 		1BDCABC421BF0E2A00FDC15F /* CompanyDetailsRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompanyDetailsRequest.swift; sourceTree = "<group>"; };
 		67856E232269DE44004C966B /* HittaTechAssignmentUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HittaTechAssignmentUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		67856E252269DE45004C966B /* HittaTechAssignmentUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HittaTechAssignmentUITests.swift; sourceTree = "<group>"; };
+		67856E252269DE45004C966B /* ReviewsPageTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReviewsPageTest.swift; sourceTree = "<group>"; };
 		67856E272269DE45004C966B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -124,6 +138,35 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0328D2302269FCD400481148 /* ScreenObjects */ = {
+			isa = PBXGroup;
+			children = (
+				0328D237226A3EDE00481148 /* ReviewsPage.swift */,
+				036B02F2226AE14F00D09FBF /* AddReviewPage.swift */,
+			);
+			path = ScreenObjects;
+			sourceTree = "<group>";
+		};
+		0328D2312269FCE300481148 /* TestCases */ = {
+			isa = PBXGroup;
+			children = (
+				036B02F6226C3FD800D09FBF /* AddReviewViaDescribeExperinceTest.swift */,
+				036B02F4226B09DE00D09FBF /* AddReviewViaCloseButtonTest.swift */,
+				036B02F0226A542600D09FBF /* AddReviewCheckText.swift */,
+				67856E252269DE45004C966B /* ReviewsPageTest.swift */,
+			);
+			path = TestCases;
+			sourceTree = "<group>";
+		};
+		0328D232226A395200481148 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				0328D233226A39E700481148 /* BaseElements.swift */,
+				0328D235226A3A7700481148 /* BaseFunctions.swift */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
 		1B2D56DF21BC33F900750DA6 /* Review */ = {
 			isa = PBXGroup;
 			children = (
@@ -303,7 +346,9 @@
 		67856E242269DE45004C966B /* HittaTechAssignmentUITests */ = {
 			isa = PBXGroup;
 			children = (
-				67856E252269DE45004C966B /* HittaTechAssignmentUITests.swift */,
+				0328D232226A395200481148 /* Base */,
+				0328D2302269FCD400481148 /* ScreenObjects */,
+				0328D2312269FCE300481148 /* TestCases */,
 				67856E272269DE45004C966B /* Info.plist */,
 			);
 			path = HittaTechAssignmentUITests;
@@ -495,7 +540,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				67856E262269DE45004C966B /* HittaTechAssignmentUITests.swift in Sources */,
+				036B02F3226AE14F00D09FBF /* AddReviewPage.swift in Sources */,
+				036B02F7226C3FD800D09FBF /* AddReviewViaDescribeExperinceTest.swift in Sources */,
+				036B02F5226B09DE00D09FBF /* AddReviewViaCloseButtonTest.swift in Sources */,
+				036B02F1226A542600D09FBF /* AddReviewCheckText.swift in Sources */,
+				67856E262269DE45004C966B /* ReviewsPageTest.swift in Sources */,
+				0328D236226A3A7700481148 /* BaseFunctions.swift in Sources */,
+				0328D238226A3EDE00481148 /* ReviewsPage.swift in Sources */,
+				0328D234226A39E700481148 /* BaseElements.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
