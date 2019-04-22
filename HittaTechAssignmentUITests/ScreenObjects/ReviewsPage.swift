@@ -18,6 +18,7 @@ enum ReviewsPage: String {
     case reviewSlider = ""
     case describeYourExperienceButton = "Describe your experience"
     case yourReviewText = "Your review"
+    case emptyStars = "empty_star_big"
     var element: XCUIElement {
         switch self {
         case .restaurantNameText, .reviewsText, .rateAndReviewText, .shareExperienceText, .yourReviewText:
@@ -28,6 +29,8 @@ enum ReviewsPage: String {
             return scrollViewsQuery.children(matching: .other).element.children(matching: .other).element(boundBy: 1).children(matching: .other).element.children(matching: .other).element(boundBy: 1).children(matching: .other).element.children(matching: .other).element(boundBy: 0).children(matching: .other).element.children(matching: .other).element
         case .describeYourExperienceButton:
             return scrollViewsQuery.otherElements.buttons[self.rawValue]
+        case .emptyStars:
+            return elementsQuery.images[self.rawValue]
         }
     }
 }

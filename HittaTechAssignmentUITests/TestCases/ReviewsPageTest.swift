@@ -49,5 +49,8 @@ class ReviewsPageTests: BaseFunctions {
         
         //Verify if review stars are displayed in rating block
         XCTAssert(ReviewsPage.reviewSlider.element.exists, "Review stars are not displayed in reviews page")
+        
+        //Verify if empty stars are displayed in rating block
+        XCTAssert(ReviewsPage.emptyStars.element.exists, "Empty review stars are not displayed in reviews page")
     }
 }

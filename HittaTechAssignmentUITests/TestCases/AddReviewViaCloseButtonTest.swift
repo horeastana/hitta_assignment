@@ -37,8 +37,9 @@ class AddReviewViaCloseButtonTest: BaseFunctions {
         waitForElementToBeDisplayed(SheetsQueryButtons.cancelButton.element)
         SheetsQueryButtons.cancelButton.element.tap()
         
-        //Posibil bug, read the spec file
-        XCTAssert(AddReviewPage.oneStar.element.exists, "After cancel the review, add review page is not displayed")
+        //Verify if reviews page is displayed after cancel the review
+        //This will fail because user remains in add review page
+        XCTAssert(ReviewsPage.emptyStars.element.exists, "After cancel the review, reviews page is not displayed")
     }
     
     //***********************************************************
